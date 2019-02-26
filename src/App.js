@@ -4,6 +4,7 @@ import './App.css';
 import Footer from './containers/Footer';
 import LeftBody from './containers/LeftBody';
 import RightBody from './containers/RightBody';
+import MediaQuery from 'react-responsive';
 
 const bodyStyle = {
   'margin-top': '40px',
@@ -15,7 +16,9 @@ class App extends Component {
     return (
       <div>
         <div style = {bodyStyle}>
+        <MediaQuery query="(min-width: 880px)">
           <LeftBody />
+        </MediaQuery>
           <RightBody />
         </div>
       <Footer />
