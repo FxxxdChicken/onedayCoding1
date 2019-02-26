@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { Card,Button } from 'react-bootstrap';
+import { Card, Button, Form } from 'react-bootstrap';
+import { MDBInput } from "mdbreact";
 
 const cardStyle = {
     width: '350px',
@@ -12,14 +13,42 @@ const logoStyle = {
     'width': '175px',
     'height': '51px',
 }
+
+const signUpStyle = {
+    color: '#999',
+    'text-algin': 'center',
+    'margin': '0 40px 10px',
+    'font-size': '17px',
+    'font-weight': '600px',
+    'line-height': '20px',
+}
+
+const formStyle = {
+    'width': '80%'
+}
 export default class LoginCard extends Component {
-  render() {
-    return (
-      <div>
-        <Card style={cardStyle}>
-        <img src ={logoUrl} style={logoStyle} />
-        </Card>
-      </div>
-    )
-  }
+    render() {
+        return (
+            <div>
+                <Card style={cardStyle}>
+                    <img src={logoUrl} style={logoStyle} />
+                    <a style={signUpStyle}>
+                        Sign up to see photos and videos from your friends.
+                    </a>
+                    <Button>Log in with facebook</Button>
+                    <div className="form-group" style = {formStyle}>
+                        <MDBInput label="Mobile Number or Email" size="sm" />
+                        <MDBInput label="Full Name" size="sm" />
+                        <MDBInput label="User Name" size="sm" />
+                        <MDBInput label="Password" type="password" size="sm" />
+                    </div>
+                    <Button>Sign up</Button>
+                    <a style={signUpStyle}>
+                    By signing up, you agree to our Terms , Data Policy and Cookies Policy .
+                    </a>
+                </Card>
+
+            </div>
+        )
+    }
 }
