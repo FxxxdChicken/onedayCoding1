@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/onedayCoding1/build/precache-manifest.e0bcdd3a7f3c1b7814be6b0d6e115af1.js"
+  "/onedayCoding1/precache-manifest.2b09a79851ff644ca8b315e1010182a0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/onedayCoding1/build/index.html", {
+workbox.routing.registerNavigationRoute("/onedayCoding1/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
