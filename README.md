@@ -1,7 +1,7 @@
 # onedayCoding1
 
 
-1일 1코딩 -  simeple instagram login page
+1일 1코딩 - instagram login clone page
 
 
 ### Skill, Tools and Libraries
@@ -9,6 +9,22 @@
 -  creat-react-app ( cli ) 
 -  react debugging tool ( chrome extension ) 
 -  bootstrap
+-  git-pages
+
+
+## Please note
+
+Check your file `package.json` 
+
+```js
+  "homepage": "https://fxxxdchicken.github.io/onedayCoding1",
+```
+
+Check your react-script version. `react-scripts > 2.0`
+
+```js
+   "react-scripts": "2.1.5",
+```
 
 
 ### References
