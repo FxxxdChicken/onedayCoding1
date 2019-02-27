@@ -9,7 +9,8 @@
 -  creat-react-app ( cli ) 
 -  react debugging tool ( chrome extension ) 
 -  bootstrap
--  git-pages
+-  `git-pages` - If you make the brand name, it will be created automatically.
+-  `glean` - This makes refactoring easy.  ( VS code extension )
 
 
 ## Please note

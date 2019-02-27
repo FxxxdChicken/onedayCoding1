@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 
 
 const footerStyle =  {
-  'text-align': 'center',
-  'display': 'list-item',
+  textAlign: 'center',
+  display: 'list-item',
 }
 export default class Footer extends Component {
   render() {

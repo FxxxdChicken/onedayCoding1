@@ -8,13 +8,13 @@ const images = [
   "https://www.instagram.com/static/images/homepage/screenshot1-2x.jpg/9144d6673849.jpg"
 ]
 const style = {
-  'backgroundImage': `url(${mockDeviceImageUrl})`,
-  'backgroundSize': '454px 618px;',
+  backgroundImage: `url(${mockDeviceImageUrl})`,
+  backgroundSize: '454px 618px;',
   width: 453,
   height: 618,
 }
 const imageStyle = {
-  'position': 'absolute',
+  position: 'absolute',
   width: 240,
   height: 417,
   marginLeft: 151,
@@ -24,12 +24,7 @@ const dummyTopStyle = {
   width: 304,
 }
 
-const imageDivStyle = {
-  top: 80,
-  left: 120,
-}
-
-export default class LeftBody extends Component {
+export default class LeftBodyArea extends Component {
   render() {
     return (
       <div style={style}>

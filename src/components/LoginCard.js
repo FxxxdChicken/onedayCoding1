@@ -5,26 +5,26 @@ import { MDBInput } from "mdbreact";
 const cardStyle = {
     width: '350px',
     height: '564px',
-    'display': 'flex',
-    'align-items': 'center',
+    display: 'flex',
+    alignItems: 'center',
 }
 const logoUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"
 const logoStyle = {
-    'width': '175px',
-    'height': '51px',
+    width: '175px',
+    height: '51px',
 }
 
 const signUpStyle = {
     color: '#999',
-    'text-algin': 'center',
-    'margin': '0 40px 10px',
-    'font-size': '17px',
-    'font-weight': '600px',
-    'line-height': '20px',
+    textAlgin: 'center',
+    margin: '0 40px 10px',
+    fontSize: '17px',
+    fontWeight: '600px',
+    lineHeight: '20px',
 }
 
 const formStyle = {
-    'width': '80%'
+    width: '80%'
 }
 export default class LoginCard extends Component {
     render() {
@@ -36,7 +36,7 @@ export default class LoginCard extends Component {
                         Sign up to see photos and videos from your friends.
                     </a>
                     <Button>Log in with facebook</Button>
-                    <div className="form-group" style = {formStyle}>
+                    <div className="form-group" style={formStyle}>
                         <MDBInput label="Mobile Number or Email" size="sm" />
                         <MDBInput label="Full Name" size="sm" />
                         <MDBInput label="User Name" size="sm" />
@@ -44,7 +44,7 @@ export default class LoginCard extends Component {
                     </div>
                     <Button>Sign up</Button>
                     <a style={signUpStyle}>
-                    By signing up, you agree to our Terms , Data Policy and Cookies Policy .
+                        By signing up, you agree to our Terms , Data Policy and Cookies Policy .
                     </a>
                 </Card>
 

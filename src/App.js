@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Footer from './containers/Footer';
-import LeftBody from './containers/LeftBody';
-import RightBody from './containers/RightBody';
+import LeftBodyArea from './containers/LeftBodyArea';
+import RightBodyArea from './containers/RightBodyArea';
 import MediaQuery from 'react-responsive';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 
-const bodyStyle = {
+const mainBodyStyle = {
   'margin-top': '40px',
   'display': 'flex',
   'justify-content': 'space-around'
@@ -18,11 +18,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div style = {bodyStyle}>
+        <div style = {mainBodyStyle}>
         <MediaQuery query="(min-width: 880px)">
-          <LeftBody />
+          <LeftBodyArea />
         </MediaQuery>
-          <RightBody />
+          <RightBodyArea />
         </div>
       <Footer />
       </div>
