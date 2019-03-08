@@ -1,7 +1,7 @@
-# onedayCoding1
+# [Portfolio_Frontend](https://bugtype.github.io/Portfolio_InstagramClone)
 
 
-1일 1코딩 - instagram login clone page
+- instagram login clone page
 
 
 ### Skill, Tools and Libraries
@@ -18,7 +18,7 @@
 Check your file `package.json` 
 
 ```js
-  "homepage": "https://fxxxdchicken.github.io/onedayCoding1",
+  "homepage": "https://bugtype.github.io/onedayCoding1",
 ```
 
 Check your react-script version. `react-scripts > 2.0`
