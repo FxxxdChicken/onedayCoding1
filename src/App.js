@@ -18,13 +18,13 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div style = {mainBodyStyle}>
-        <MediaQuery query="(min-width: 880px)">
-          <LeftBodyArea />
-        </MediaQuery>
+        <div style={mainBodyStyle}>
+          <MediaQuery query="(min-width: 880px)">
+            <LeftBodyArea />
+          </MediaQuery>
           <RightBodyArea />
         </div>
-      <Footer />
+        <Footer />
       </div>
     );
   }

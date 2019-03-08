@@ -30,7 +30,7 @@ export default class LeftBodyArea extends Component {
         "https://www.instagram.com/static/images/homepage/screenshot2-2x.jpg/177140221987.jpg",
         "https://www.instagram.com/static/images/homepage/screenshot1-2x.jpg/9144d6673849.jpg"
       ]
-  };
+    };
 
   }
   timer() {
@@ -38,21 +38,21 @@ export default class LeftBodyArea extends Component {
       currentCount: this.state.images.length - 1 == this.state.currentCount ? 0 : this.state.currentCount + 1
     })
   }
-  componentDidMount(){
+  componentDidMount() {
     this.intervalId = setInterval(this.timer.bind(this), 2000);
   }
-  componentWillUnmount(){
+  componentWillUnmount() {
     clearInterval(this.intervalId);
   }
   render() {
     return (
       <div style={style}>
-      <div style={dummyTopStyle} />
-      {
-        this.state.images.map((imageUrl, i) => {
-                        return i == this.state.currentCount ? (<img src={imageUrl} className="thumbnailImage" />) : (<img src={imageUrl} className="thumbnailImage hide" />);
-                    })
-      }
+        <div style={dummyTopStyle} />
+        {
+          this.state.images.map((imageUrl, i) => {
+            return i == this.state.currentCount ? (<img src={imageUrl} className="thumbnailImage" />) : (<img src={imageUrl} className="thumbnailImage hide" />);
+          })
+        }
       </div>
     )
   }

@@ -19,8 +19,8 @@ export default class Account extends Component {
             <div style={accountStyle}>
                 <Card style={accountCardStyle}>
                     <div>
-                    <a> Have an account? </a>
-                    <a href=""> Log in </a>
+                        <a> Have an account? </a>
+                        <a href=""> Log in </a>
                     </div>
                 </Card>
             </div>
