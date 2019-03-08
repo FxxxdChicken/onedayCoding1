@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Portfolio_Frontend/precache-manifest.40040f02ea100ca76d160d8cd3c8ed65.js"
+  "/Portfolio_InstagramClone/precache-manifest.765aca96994b1f3e7c8a06994fea46c9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Portfolio_Frontend/index.html", {
+workbox.routing.registerNavigationRoute("/Portfolio_InstagramClone/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
