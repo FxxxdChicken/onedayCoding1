@@ -10,9 +10,11 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 
 const mainBodyStyle = {
-  'margin-top': '40px',
-  'display': 'flex',
-  'justify-content': 'space-around'
+  marginTop: '40px',
+  display: 'flex',
+  flexDirection: 'row',
+  alignItems: 'flex-end',
+  justifyContent: 'center',
 }
 class App extends Component {
   render() {
