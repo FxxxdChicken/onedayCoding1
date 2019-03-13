@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import LoginCard from '../components/LoginCard';
 import Account from '../components/Account';
+import AppDownloads from '../components/AppDownloads';
 
 export default class RightBodyArea extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class RightBodyArea extends Component {
       <div>
         <LoginCard />
         <Account />
+        <AppDownloads />
       </div>
     )
   }
