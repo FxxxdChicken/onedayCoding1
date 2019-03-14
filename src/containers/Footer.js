@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
 
 const footerLinks = [
-  {name: "ABOUT US", linkUrl: ""},
-  {name: "SUPPORT", linkUrl: ""},
-  {name: "API", linkUrl: ""},
-  {name: "JOBS", linkUrl: ""},
-  {name: "PRIVACY", linkUrl: ""},
-  {name: "TERMS", linkUrl: ""},
-  {name: "DIRECTORY", linkUrl: ""},
-  {name: "HASHTAGS", linkUrl: ""},
-  {name: "LANGUAGE", linkUrl: ""},
+  { name: "ABOUT US", linkUrl: "" },
+  { name: "SUPPORT", linkUrl: "" },
+  { name: "API", linkUrl: "" },
+  { name: "JOBS", linkUrl: "" },
+  { name: "PRIVACY", linkUrl: "" },
+  { name: "TERMS", linkUrl: "" },
+  { name: "DIRECTORY", linkUrl: "" },
+  { name: "HASHTAGS", linkUrl: "" },
+  { name: "LANGUAGE", linkUrl: "" },
 ]
 
-const styles={
-  a:{
+const styles = {
+  a: {
     color: "#003569",
     textDecoration: "none",
     fontSize: "12px",
@@ -31,21 +31,19 @@ const styles={
     marginRight: "16px",
     marginBottom: "7px",
   }
-  
-
 }
 export default class Footer extends Component {
   render() {
     return (
       <div>
         <a style={styles.footerStyle}>
-        <ul style={styles.ul}>
-        {
-          footerLinks.map((link) => {
-            return <li style={styles.li}><a style={styles.a}>{link.name}</a></li>;
-          })
-        }
-        </ul>
+          <ul style={styles.ul}>
+            {
+              footerLinks.map((link) => {
+                return <li style={styles.li}><a style={styles.a}>{link.name}</a></li>;
+              })
+            }
+          </ul>
 
         </a>
       </div>
