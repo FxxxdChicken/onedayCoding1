@@ -1,25 +1,35 @@
 import React, { Component } from 'react'
-import './LeftBodyArea.css';
-
 
 const mockDeviceImageUrl = "https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png"
-
-
-const style = {
-  backgroundImage: `url(${mockDeviceImageUrl})`,
-  backgroundSize: '454px 618px;',
-  width: 453,
-  height: 618,
-}
-const imageStyle = {
-  position: 'absolute',
-  width: 240,
-  height: 417,
-  marginLeft: 151,
-  marginTop: 99,
-}
-const dummyTopStyle = {
-  width: 304,
+const styles = {
+  leftBodyArea: {
+    backgroundImage: `url(${mockDeviceImageUrl})`,
+    backgroundSize: '454px 618px;',
+    width: 453,
+    height: 618,
+  },
+  dummyTopStyle: {
+    width: 304,
+  },
+  thumbnailImage: {
+    position: "absolute",
+    width: "240px",
+    height: "417px",
+    marginLeft: "151px",
+    marginTop: "99px",
+    opacity: "1.0",
+    transition: "opacity 1000ms 0ms",
+  },
+  thumbnailImageHide: {
+    position: "absolute",
+    width: "240px",
+    height: "417px",
+    marginLeft: "151px",
+    marginTop: "99px",
+    opacity: "1.0",
+    transition: "opacity 1000ms 0ms",
+    opacity: "0.0",
+  }
 }
 export default class LeftBodyArea extends Component {
   constructor(props) {
@@ -46,11 +56,11 @@ export default class LeftBodyArea extends Component {
   }
   render() {
     return (
-      <div style={style}>
-        <div style={dummyTopStyle} />
+      <div style={styles.leftBodyArea}>
+        <div style={styles.dummyTopStyle} />
         {
           this.state.images.map((imageUrl, i) => {
-            return i == this.state.currentCount ? (<img src={imageUrl} className="thumbnailImage" />) : (<img src={imageUrl} className="thumbnailImage hide" />);
+            return i == this.state.currentCount ? (<img src={imageUrl} style={styles.thumbnailImage} />) : (<img src={imageUrl} style={styles.thumbnailImageHide} />);
           })
         }
       </div>
