@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const mockDeviceImageUrl = "https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png"
 const styles = {
@@ -31,39 +31,36 @@ const styles = {
     opacity: "0.0",
   }
 }
-export default class LeftBodyArea extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      currentCount: 0,
-      images: [
-        "https://www.instagram.com/static/images/homepage/screenshot2-2x.jpg/177140221987.jpg",
-        "https://www.instagram.com/static/images/homepage/screenshot1-2x.jpg/9144d6673849.jpg"
-      ]
-    };
 
+export default function LeftBodyArea() {
+  const [currentCount, setCurrentCount] = useState(0);
+  const images = [
+    "https://www.instagram.com/static/images/homepage/screenshot2-2x.jpg/177140221987.jpg",
+    "https://www.instagram.com/static/images/homepage/screenshot1-2x.jpg/9144d6673849.jpg"
+  ]
+
+  function timer() {
+    setCurrentCount((currentCount + 1) % images.length)
   }
-  timer() {
-    this.setState({
-      currentCount: this.state.images.length - 1 == this.state.currentCount ? 0 : this.state.currentCount + 1
-    })
+  useEffect(() => {
+    let timer1 = setInterval(() => timer(), 1000)
+
+    return () => {
+      clearTimeout(timer1)
+    }
   }
-  componentDidMount() {
-    this.intervalId = setInterval(this.timer.bind(this), 2000);
-  }
-  componentWillUnmount() {
-    clearInterval(this.intervalId);
-  }
-  render() {
-    return (
-      <div style={styles.leftBodyArea}>
-        <div style={styles.dummyTopStyle} />
-        {
-          this.state.images.map((imageUrl, i) => {
-            return i == this.state.currentCount ? (<img src={imageUrl} style={styles.thumbnailImage} />) : (<img src={imageUrl} style={styles.thumbnailImageHide} />);
-          })
-        }
-      </div>
-    )
-  }
+  )
+
+  return (
+    <div style={styles.leftBodyArea}>
+      <div style={styles.dummyTopStyle} />
+      {
+        images.map((imageUrl, i) => {
+          return i == currentCount ? (<img src={imageUrl} style={styles.thumbnailImage} />) : (<img src={imageUrl} style={styles.thumbnailImageHide} />);
+        })
+      }
+    </div>
+  )
+
 }
+
