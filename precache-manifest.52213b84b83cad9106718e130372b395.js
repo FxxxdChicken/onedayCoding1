@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "6c330d0d444f82e9bfa5",
+    "revision": "cfdf1298c317ee293c28",
     "url": "/Portfolio_InstagramClone/static/css/main.adb6f542.chunk.css"
   },
   {
-    "revision": "6c330d0d444f82e9bfa5",
-    "url": "/Portfolio_InstagramClone/static/js/main.6c330d0d.chunk.js"
+    "revision": "cfdf1298c317ee293c28",
+    "url": "/Portfolio_InstagramClone/static/js/main.cfdf1298.chunk.js"
   },
   {
     "revision": "33d186ca727795982fa0",
     "url": "/Portfolio_InstagramClone/static/js/runtime~main.33d186ca.js"
   },
   {
-    "revision": "ddbc72dca15c34329110",
+    "revision": "214bcfe3d1ed33d749b8",
     "url": "/Portfolio_InstagramClone/static/css/2.5bb40b89.chunk.css"
   },
   {
-    "revision": "ddbc72dca15c34329110",
-    "url": "/Portfolio_InstagramClone/static/js/2.ddbc72dc.chunk.js"
+    "revision": "214bcfe3d1ed33d749b8",
+    "url": "/Portfolio_InstagramClone/static/js/2.214bcfe3.chunk.js"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/Portfolio_InstagramClone/static/media/fa-regular-400.5dd3976c.woff"
   },
   {
-    "revision": "414ff5daad323a1c47c5177d4bd29674",
-    "url": "/Portfolio_InstagramClone/static/media/fa-regular-400.414ff5da.eot"
-  },
-  {
     "revision": "f6c6f6c8cb7784254ad00056f6fbd74e",
     "url": "/Portfolio_InstagramClone/static/media/fa-regular-400.f6c6f6c8.ttf"
+  },
+  {
+    "revision": "414ff5daad323a1c47c5177d4bd29674",
+    "url": "/Portfolio_InstagramClone/static/media/fa-regular-400.414ff5da.eot"
   },
   {
     "revision": "4b115e1153a9ea339d6a0bb284cc8ed3",
@@ -136,12 +136,12 @@ self.__precacheManifest = [
     "url": "/Portfolio_InstagramClone/static/media/Roboto-Thin.7500519d.woff"
   },
   {
-    "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
-    "url": "/Portfolio_InstagramClone/static/media/Roboto-Regular.ba3dcd89.woff"
-  },
-  {
     "revision": "3b813c2ae0d04909a33a18d792912ee7",
     "url": "/Portfolio_InstagramClone/static/media/Roboto-Light.3b813c2a.woff"
+  },
+  {
+    "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
+    "url": "/Portfolio_InstagramClone/static/media/Roboto-Regular.ba3dcd89.woff"
   },
   {
     "revision": "fc78759e93a6cac50458610e3d9d63a0",
@@ -152,14 +152,6 @@ self.__precacheManifest = [
     "url": "/Portfolio_InstagramClone/static/media/Roboto-Bold.dc81817d.woff"
   },
   {
-    "revision": "46e48ce0628835f68a7369d0254e4283",
-    "url": "/Portfolio_InstagramClone/static/media/Roboto-Light.46e48ce0.ttf"
-  },
-  {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/Portfolio_InstagramClone/static/media/Roboto-Medium.894a2ede.ttf"
-  },
-  {
     "revision": "94998475f6aea65f558494802416c1cf",
     "url": "/Portfolio_InstagramClone/static/media/Roboto-Thin.94998475.ttf"
   },
@@ -168,11 +160,19 @@ self.__precacheManifest = [
     "url": "/Portfolio_InstagramClone/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
+    "revision": "46e48ce0628835f68a7369d0254e4283",
+    "url": "/Portfolio_InstagramClone/static/media/Roboto-Light.46e48ce0.ttf"
+  },
+  {
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/Portfolio_InstagramClone/static/media/Roboto-Medium.894a2ede.ttf"
+  },
+  {
     "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
     "url": "/Portfolio_InstagramClone/static/media/Roboto-Bold.e31fcf18.ttf"
   },
   {
-    "revision": "4e49bd7922f775c2203769110827a162",
+    "revision": "bea8efce68a7ff5d580231ef2af31c2b",
     "url": "/Portfolio_InstagramClone/index.html"
   }
 ];
