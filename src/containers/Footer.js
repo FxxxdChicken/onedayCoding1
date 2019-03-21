@@ -24,11 +24,18 @@ const styles = {
     display: 'list-item',
   },
   ul: {
-    listStyle: "none"
+    listStyle: "none",
+    marginTop: "50px"
   },
   li: {
     display: "inline-block",
     marginRight: "16px",
+    marginBottom: "7px",
+  },
+  cc_li: {
+    color: "#999",
+    display: "inline-block",
+    marginLeft: "25px",
     marginBottom: "7px",
   }
 }
@@ -43,6 +50,7 @@ export default class Footer extends Component {
                 return <li style={styles.li}><a style={styles.a}>{link.name}</a></li>;
               })
             }
+            <li style={styles.cc_li} >© 2019 INSTAGRAM</li>
           </ul>
 
         </a>

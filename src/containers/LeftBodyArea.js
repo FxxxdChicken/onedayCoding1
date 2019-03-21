@@ -5,6 +5,7 @@ const styles = {
   leftBodyArea: {
     backgroundImage: `url(${mockDeviceImageUrl})`,
     backgroundSize: '454px 618px;',
+    marginTop: "50px",
     width: 453,
     height: 618,
   },
@@ -14,7 +15,7 @@ const styles = {
   thumbnailImage: {
     position: "absolute",
     width: "240px",
-    height: "417px",
+    height: "427px",
     marginLeft: "151px",
     marginTop: "99px",
     opacity: "1.0",
@@ -23,7 +24,7 @@ const styles = {
   thumbnailImageHide: {
     position: "absolute",
     width: "240px",
-    height: "417px",
+    height: "427px",
     marginLeft: "151px",
     marginTop: "99px",
     opacity: "1.0",
