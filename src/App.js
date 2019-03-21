@@ -13,7 +13,6 @@ const mainBodyStyle = {
   marginTop: '40px',
   display: 'flex',
   flexDirection: 'row',
-  alignItems: 'flex-end',
   justifyContent: 'center',
 }
 class App extends Component {
