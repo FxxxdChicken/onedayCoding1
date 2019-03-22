@@ -26,16 +26,22 @@ const signUpStyle = {
 const formStyle = {
     width: '80%'
 }
+const styles = {
+    loginButton: {
+        width: '268px',
+        textAlign: 'center',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        borderRadius: '4px'
+    }
+}
 export default class LoginCard extends Component {
     render() {
         return (
             <div>
                 <Card style={cardStyle}>
                     <img src={logoUrl} style={logoStyle} />
-                    <a style={signUpStyle}>
-                        Sign up to see photos and videos from your friends.
-                    </a>
-                    <Button>Log in with facebook</Button>
+                    <Button style={styles.loginButton}>Log in with facebook</Button>
                     <div className="form-group" style={formStyle}>
                         <MDBInput label="Mobile Number or Email" size="sm" />
                         <MDBInput label="Full Name" size="sm" />
