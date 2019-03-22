@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6fbe898a9e8955c8b03e",
-    "url": "/Portfolio_InstagramClone/static/css/main.adb6f542.chunk.css"
+    "revision": "f18e61dc8d2affe6ba07",
+    "url": "/Portfolio_InstagramClone/static/css/main.4b4394da.chunk.css"
   },
   {
-    "revision": "6fbe898a9e8955c8b03e",
-    "url": "/Portfolio_InstagramClone/static/js/main.6fbe898a.chunk.js"
+    "revision": "f18e61dc8d2affe6ba07",
+    "url": "/Portfolio_InstagramClone/static/js/main.f18e61dc.chunk.js"
   },
   {
     "revision": "33d186ca727795982fa0",
@@ -56,24 +56,24 @@ self.__precacheManifest = [
     "url": "/Portfolio_InstagramClone/static/media/fa-solid-900.61969d43.woff"
   },
   {
-    "revision": "d9d17590c975aad1be0ddab673f9c769",
-    "url": "/Portfolio_InstagramClone/static/media/fa-brands-400.d9d17590.eot"
-  },
-  {
     "revision": "c39278f7abfc798a241551194f55e29f",
     "url": "/Portfolio_InstagramClone/static/media/fa-brands-400.c39278f7.ttf"
+  },
+  {
+    "revision": "d9d17590c975aad1be0ddab673f9c769",
+    "url": "/Portfolio_InstagramClone/static/media/fa-brands-400.d9d17590.eot"
   },
   {
     "revision": "e7e957c87c454bccaa3bf9fdaa6874f8",
     "url": "/Portfolio_InstagramClone/static/media/fa-regular-400.e7e957c8.svg"
   },
   {
-    "revision": "b5596f4d339f99e3d69bc41be78db962",
-    "url": "/Portfolio_InstagramClone/static/media/fa-solid-900.b5596f4d.eot"
-  },
-  {
     "revision": "b70cea0339374107969eb53e5b1f603f",
     "url": "/Portfolio_InstagramClone/static/media/fa-solid-900.b70cea03.ttf"
+  },
+  {
+    "revision": "b5596f4d339f99e3d69bc41be78db962",
+    "url": "/Portfolio_InstagramClone/static/media/fa-solid-900.b5596f4d.eot"
   },
   {
     "revision": "80533988ff5fecd5be26557d08ce8237",
@@ -144,12 +144,12 @@ self.__precacheManifest = [
     "url": "/Portfolio_InstagramClone/static/media/Roboto-Regular.ba3dcd89.woff"
   },
   {
-    "revision": "fc78759e93a6cac50458610e3d9d63a0",
-    "url": "/Portfolio_InstagramClone/static/media/Roboto-Medium.fc78759e.woff"
-  },
-  {
     "revision": "dc81817def276b4f21395f7ea5e88dcd",
     "url": "/Portfolio_InstagramClone/static/media/Roboto-Bold.dc81817d.woff"
+  },
+  {
+    "revision": "fc78759e93a6cac50458610e3d9d63a0",
+    "url": "/Portfolio_InstagramClone/static/media/Roboto-Medium.fc78759e.woff"
   },
   {
     "revision": "94998475f6aea65f558494802416c1cf",
@@ -164,15 +164,15 @@ self.__precacheManifest = [
     "url": "/Portfolio_InstagramClone/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
-    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
-    "url": "/Portfolio_InstagramClone/static/media/Roboto-Medium.894a2ede.ttf"
-  },
-  {
     "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
     "url": "/Portfolio_InstagramClone/static/media/Roboto-Bold.e31fcf18.ttf"
   },
   {
-    "revision": "becbcc6d5f8e5fa41f7e3a65438ebd7a",
+    "revision": "894a2ede85a483bf9bedefd4db45cdb9",
+    "url": "/Portfolio_InstagramClone/static/media/Roboto-Medium.894a2ede.ttf"
+  },
+  {
+    "revision": "2dbcffdd697bdb28b39de4a91ccf45ef",
     "url": "/Portfolio_InstagramClone/index.html"
   }
 ];
